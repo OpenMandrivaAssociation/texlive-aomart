@@ -1,3 +1,9 @@
+# revision 23349
+# category Package
+# catalog-ctan /macros/latex/contrib/aomart
+# catalog-date 2011-06-22 20:08:44 +0200
+# catalog-license lppl1.3
+# catalog-version 1.10
 Name:		texlive-aomart
 Version:	1.10
 Release:	1
@@ -53,6 +59,7 @@ Annals of Mathematics.
 #- source
 %doc %{_texmfdistdir}/source/latex/aomart/aomart.dtx
 %doc %{_texmfdistdir}/source/latex/aomart/aomart.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +70,5 @@ Annals of Mathematics.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
