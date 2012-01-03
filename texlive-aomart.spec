@@ -6,7 +6,7 @@
 # catalog-version 1.10
 Name:		texlive-aomart
 Version:	1.10
-Release:	1
+Release:	2
 Summary:	Typeset articles for the Annals of Mathematics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/aomart
