@@ -1,12 +1,12 @@
-# revision 23349
+# revision 27459
 # category Package
 # catalog-ctan /macros/latex/contrib/aomart
-# catalog-date 2011-06-22 20:08:44 +0200
+# catalog-date 2012-08-19 23:39:13 +0200
 # catalog-license lppl1.3
-# catalog-version 1.10
+# catalog-version 1.11
 Name:		texlive-aomart
-Version:	1.10
-Release:	2
+Version:	1.11
+Release:	1
 Summary:	Typeset articles for the Annals of Mathematics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/aomart
