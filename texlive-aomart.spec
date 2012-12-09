@@ -1,12 +1,12 @@
-# revision 27459
+# revision 23349
 # category Package
 # catalog-ctan /macros/latex/contrib/aomart
-# catalog-date 2012-08-19 23:39:13 +0200
+# catalog-date 2011-06-22 20:08:44 +0200
 # catalog-license lppl1.3
-# catalog-version 1.11
+# catalog-version 1.10
 Name:		texlive-aomart
-Version:	1.11
-Release:	1
+Version:	1.10
+Release:	2
 Summary:	Typeset articles for the Annals of Mathematics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/aomart
@@ -59,3 +59,18 @@ Annals of Mathematics.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.10-2
++ Revision: 749282
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.10-1
++ Revision: 717839
+- texlive-aomart
+- texlive-aomart
+- texlive-aomart
+- texlive-aomart
+- texlive-aomart
+
