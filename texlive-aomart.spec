@@ -1,12 +1,6 @@
-# revision 28096
-# category Package
-# catalog-ctan /macros/latex/contrib/aomart
-# catalog-date 2012-10-26 13:50:00 +0200
-# catalog-license lppl1.3
-# catalog-version 1.12
 Name:		texlive-aomart
-Version:	1.12
-Release:	9
+Version:	1.21
+Release:	1
 Summary:	Typeset articles for the Annals of Mathematics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/aomart
@@ -33,22 +27,11 @@ Annals of Mathematics.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/bibtex/bst/aomart/aomalpha.bst
-%{_texmfdistdir}/bibtex/bst/aomart/aomplain.bst
-%{_texmfdistdir}/tex/latex/aomart/aomart.cls
-%doc %{_texmfdistdir}/doc/latex/aomart/Makefile
-%doc %{_texmfdistdir}/doc/latex/aomart/README
-%doc %{_texmfdistdir}/doc/latex/aomart/aomart.bib
-%doc %{_texmfdistdir}/doc/latex/aomart/aomart.pdf
-%doc %{_texmfdistdir}/doc/latex/aomart/aomsample.bib
-%doc %{_texmfdistdir}/doc/latex/aomart/aomsample.pdf
-%doc %{_texmfdistdir}/doc/latex/aomart/aomsample.tex
-%doc %{_texmfdistdir}/doc/latex/aomart/aomsample1.pdf
-%doc %{_texmfdistdir}/doc/latex/aomart/aomsample1.tex
-%doc %{_texmfdistdir}/doc/latex/aomart/fullref.pl
+%{_texmfdistdir}/bibtex/bst/aomart
+%{_texmfdistdir}/tex/latex/aomart
+%doc %{_texmfdistdir}/doc/latex/aomart
 #- source
-%doc %{_texmfdistdir}/source/latex/aomart/aomart.dtx
-%doc %{_texmfdistdir}/source/latex/aomart/aomart.ins
+%doc %{_texmfdistdir}/source/latex/aomart
 
 #-----------------------------------------------------------------------
 %prep
