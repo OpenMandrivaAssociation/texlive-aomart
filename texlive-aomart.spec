@@ -5,9 +5,9 @@ Summary:	Typeset articles for the Annals of Mathematics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/aomart
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/aomart.r63442.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/aomart.doc.r63442.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/aomart.source.r63442.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/aomart.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/aomart.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/aomart.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
