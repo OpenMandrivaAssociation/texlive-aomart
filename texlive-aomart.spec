@@ -1,6 +1,6 @@
 Name:		texlive-aomart
-Version:	63442
-Release:	2
+Version:	71469
+Release:	1
 Summary:	Typeset articles for the Annals of Mathematics
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/aomart
