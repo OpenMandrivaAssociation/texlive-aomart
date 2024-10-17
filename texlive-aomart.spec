@@ -3,7 +3,7 @@ Version:	71469
 Release:	1
 Summary:	Typeset articles for the Annals of Mathematics
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/aomart
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/aomart
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/aomart.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/aomart.doc.r%{version}.tar.xz
