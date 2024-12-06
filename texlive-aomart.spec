@@ -1,5 +1,5 @@
 Name:		texlive-aomart
-Version:	71469
+Version:	72865
 Release:	1
 Summary:	Typeset articles for the Annals of Mathematics
 Group:		Publishing
