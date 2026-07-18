@@ -1,9 +1,9 @@
 %global tl_name aomart
-%global tl_revision 76110
+%global tl_revision 79673
 
 Name:		texlive-%{tl_name}
 Epoch:		1
-Version:	1.36
+Version:	1.37
 Release:	%{tl_revision}.1
 Summary:	Typeset articles for the Annals of Mathematics
 Group:		Publishing
