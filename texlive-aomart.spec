@@ -1,5 +1,6 @@
 %global tl_name aomart
 %global tl_revision 79673
+%global tl_bin_links aom-fullref:%{_texmfdistdir}/scripts/aomart/aom-fullref.pl
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -16,6 +17,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(aomart.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 The package provides a class for typesetting articles for The Annals of
